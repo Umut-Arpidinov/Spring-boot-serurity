@@ -15,7 +15,6 @@ import java.util.Optional;
 @Controller
 public class RestController {
 
-
     private final StudentServiceImpl studentServiceImpl;
 
     public RestController(StudentServiceImpl studentServiceImpl){
